@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iswa.iml" filepath="$PROJECT_DIR$/iswa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iswa_ws_ia/iswa_ws_ia.iml" filepath="$PROJECT_DIR$/iswa_ws_ia/iswa_ws_ia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iswa_ws_salon/iswa_ws_salon.iml" filepath="$PROJECT_DIR$/iswa_ws_salon/iswa_ws_salon.iml" />
+    </modules>
+  </component>
+</project>
