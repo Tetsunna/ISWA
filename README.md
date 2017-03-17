@@ -1,1 +1,1 @@
-ISWA
+L’Intelligent School Web Assistant (ISWA) est une plateforme de soutien scolaire en ligne à disposition des parents. Il s'agira de différents salons de chat dirigés par un professeur ou une IA, et ceux-ci verront les difficultés de l'élève évaluées en continu afin de les aider au mieux.
