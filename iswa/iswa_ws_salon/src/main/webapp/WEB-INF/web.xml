@@ -3,21 +3,11 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-	<display-name>NotebookWebService6</display-name>
-	<listener>
-		<listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
-	</listener>
-	<servlet>
-		<display-name>imatest</display-name>
-		<servlet-name>imatest</servlet-name>
-		<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>imatest</servlet-name>
-		<url-pattern>/imatest</url-pattern>
-	</servlet-mapping>
+	<display-name>ISWA_salon</display-name>
+
+	<!-- TODO -->
+
 	<session-config>
-		<session-timeout>60</session-timeout>
+		<session-timeout>120</session-timeout>
 	</session-config>
 </web-app>

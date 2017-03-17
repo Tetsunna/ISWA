@@ -20,6 +20,7 @@
     <modules>
         <module>iswa_ws_ia</module>
         <module>iswa_ws_salon</module>
+        <module>iswa_ws_connexion</module>
     </modules>
 
 
