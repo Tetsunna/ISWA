@@ -1,4 +1,14 @@
-iswa\ws\ia\source\code\Person.class
-iswa\ws\ia\source\code\NotebookService.class
+iswa\json_gen\I_Json.class
+iswa\ws\ia\source\code\Mathematiques$Multiplication.class
+iswa\ws\ia\source\code\Mathematiques$Addition.class
 iswa\ws\ia\source\code\NotebookServiceImpl.class
-iswa\ws\ia\a.class
+iswa\json_gen\Json.class
+iswa\ws\ia\source\code\I_IA.class
+iswa\ws\ia\source\code\Person.class
+iswa\ws\ia\source\code\Matiere.class
+iswa\ws\ia\source\code\Mathematiques.class
+iswa\ws\ia\source\code\Mathematiques$Soustraction.class
+iswa\ws\ia\source\code\Mathematiques$Division.class
+iswa\ws\ia\source\code\NotebookService.class
+iswa\ws\ia\source\code\Eleve.class
+iswa\ws\ia\source\code\IA.class

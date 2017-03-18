@@ -1,5 +1,5 @@
 <html>
 <body>
-<a href="notebookwebservice?wsdl">notebookwebservice?wsdl</a>
+<a href="ISWA_Connexion?wsdl">ISWA_Connexion?wsdl</a>
 </body>
 </html>

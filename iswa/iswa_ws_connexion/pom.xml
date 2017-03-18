@@ -14,7 +14,7 @@
     <packaging>war</packaging>
 
     <build>
-        <finalName>iswawsia</finalName>
+        <finalName>iswawsconnexion</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
