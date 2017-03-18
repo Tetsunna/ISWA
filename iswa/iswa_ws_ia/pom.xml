@@ -12,6 +12,8 @@
     <artifactId>iswa_ws_ia</artifactId>
     <packaging>war</packaging>
 
+
+
     <build>
         <finalName>iswawsia</finalName>
         <plugins>

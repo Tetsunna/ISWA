@@ -3,6 +3,10 @@ iswa\ws\ia\source\code\Mathematiques$Multiplication.class
 iswa\ws\ia\source\code\Mathematiques$Addition.class
 iswa\ws\ia\source\code\NotebookServiceImpl.class
 iswa\json_gen\Json.class
+<<<<<<< Updated upstream
+=======
+iswa\ws\ia\source\code\Test_classes.class
+>>>>>>> Stashed changes
 iswa\ws\ia\source\code\I_IA.class
 iswa\ws\ia\source\code\Person.class
 iswa\ws\ia\source\code\Matiere.class
