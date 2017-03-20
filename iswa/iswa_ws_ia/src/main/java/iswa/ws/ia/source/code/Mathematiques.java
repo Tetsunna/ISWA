@@ -8,47 +8,34 @@ public class Mathematiques
     int _is_it_any_difficulty = 0;
 
     private int addition_difficult_priority = 0;
+    private int soustraction_difficult_priority = 0;
+    private int multiplication_difficult_priority = 0;
+    private int division_difficult_priority = 0;
 
 
-    void setAdditionDifficultDriority(int moyenne)
-    {
-
-        addition_difficult_priority = moyenne;
-     /*   if (moyenne <= 33)
-            addition_difficult_priority = 1;
-        else if (moyenne > 33 && moyenne <= 66)
-            addition_difficult_priority = 2;
-        else if (moyenne > 66)
-            addition_difficult_priority = 3;*/
-    }
-
-    int getAdditionDifficultDriority()
+    public int getAddition_difficult_priority()
     {
         return (addition_difficult_priority);
     }
 
-    class Addition
+    public void setAddition_difficult_priority(int a1)
     {
-        int _ddifcult_priority = 0;
-
+        addition_difficult_priority = a1;
     }
 
-    class Soustraction
+    public int getSoustraction_difficult_priority()
     {
-        int _ddifcult_priority = 0;
-
+        return (soustraction_difficult_priority);
     }
 
-    class Multiplication
+    public int getMultiplication_difficult_priority()
     {
-        int _ddifcult_priority = 0;
-
+        return (multiplication_difficult_priority);
     }
 
-    class Division
+    public int getDivision_difficult_priority()
     {
-        int _ddifcult_priority = 0;
-
+        return (division_difficult_priority);
     }
 
 

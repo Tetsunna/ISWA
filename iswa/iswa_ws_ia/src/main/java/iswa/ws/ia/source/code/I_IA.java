@@ -10,7 +10,7 @@ import javax.jws.WebService;
 public interface I_IA
 {
     int getFicheEleve(String pseudo);
-    void setFicheEleve(String pseudo, String result_test);
+    boolean setFicheEleve(String pseudo, String result_test);
     void addNewEleve(Eleve new_eleve);
     Eleve getEleveDifficulty(String pseudo);
 

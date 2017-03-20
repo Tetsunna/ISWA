@@ -1,19 +1,21 @@
-iswa\ws\ia\source\code\Mathematiques$Multiplication.class
+iswa\ws\ia\generatesources\SetFicheEleve.class
 iswa\ws\ia\source\code\IAImpl.class
-iswa\ws\ia\source\code\Mathematiques$Addition.class
-<<<<<<< HEAD
-iswa\ws\ia\source\code\NotebookServiceImpl.class
 iswa\json_gen\Json.class
+iswa\ws\ia\generatesources\SetFicheEleveResponse.class
 iswa\ws\ia\source\code\Test_classes.class
 iswa\ws\ia\source\code\I_IA.class
-=======
->>>>>>> master
+iswa\ws\ia\generatesources\GetFicheEleveResponse.class
+iswa\ws\ia\generatesources\GetFicheEleve.class
 iswa\ws\ia\source\code\Person.class
+iswa\ws\ia\generatesources\Eleve.class
+iswa\ws\ia\generatesources\GetEleveDifficultyResponse.class
 iswa\ws\ia\source\code\Matiere.class
-iswa\json_gen\Json.class
+iswa\ws\ia\generatesources\package-info.class
 iswa\ws\ia\source\code\Mathematiques.class
-iswa\ws\ia\source\code\Mathematiques$Soustraction.class
-iswa\ws\ia\source\code\Mathematiques$Division.class
-iswa\ws\ia\source\code\Test_classes.class
-iswa\ws\ia\source\code\I_IA.class
+iswa\ws\ia\generatesources\Iswawsia_Service.class
+iswa\ws\ia\generatesources\AddNewEleve.class
 iswa\ws\ia\source\code\Eleve.class
+iswa\ws\ia\generatesources\AddNewEleveResponse.class
+iswa\ws\ia\generatesources\Iswawsia.class
+iswa\ws\ia\generatesources\ObjectFactory.class
+iswa\ws\ia\generatesources\GetEleveDifficulty.class

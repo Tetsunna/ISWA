@@ -9,20 +9,35 @@ import java.util.List;
 public class Eleve
 {
     Matiere matieres = new Matiere();
-    private String _name;
+    private String name;
 
     public Eleve()
     {
 
     }
 
-    public Eleve(String name)
+    public Eleve(String name1)
     {
-        _name = name;
+        name = name1;
     }
 
-    String getName()
+    public Matiere getMatieres()
     {
-        return (_name);
+        return (matieres);
+    }
+
+    public void setMatieres(Matiere m)
+    {
+        matieres = m;
+    }
+
+    public String getName()
+    {
+        return (name);
+    }
+
+    public void setName(String n)
+    {
+        name = n;
     }
 }

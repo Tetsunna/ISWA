@@ -26,7 +26,7 @@ public class IAImpl implements I_IA
 
         for (int i = 0; i != Eleves.size(); i++)
         {
-            if (Eleves.get(i).getName() == pseudo)
+            if (Eleves.get(i).getName().equals(pseudo))
                 _index = i;
         }
 
@@ -40,7 +40,7 @@ public class IAImpl implements I_IA
         return (_index);
     }
 
-    public void setFicheEleve(String pseudo, String result_test)
+    public boolean setFicheEleve(String pseudo, String result_test)
     {
         int index_usr = getFicheEleve(pseudo);
 
@@ -49,10 +49,12 @@ public class IAImpl implements I_IA
         try
         {
             Usr_to_test = mapper.readValue(new File("G:\\ISWA\\ISWA\\iswa\\iswa_ws_ia\\src\\main\\java\\iswa\\questionnaire_test.json"), Test_classes.class);
+            return (true);
         }
         catch (IOException e)
         {
             e.printStackTrace();
+            return (false);
         }
     }
 
@@ -70,19 +72,19 @@ public class IAImpl implements I_IA
         {
             int failed = 0;
 
-            Test_classes obj = mapper.readValue(new File("G:\\ISWA\\ISWA\\iswa\\iswa_ws_ia\\src\\main\\java\\iswa\\questionnaire.json"), Test_classes.class);
+            Test_classes obj = mapper.readValue(new File("G:\\ISWA\\ISWA\\iswa\\iswa_ws_ia\\src\\main\\java\\iswa\\questionnaire_test.json"), Test_classes.class);
             for (int i = 0; i != obj.question_rep.size(); i++)
             {
                 if (obj.question_rep.get(i).equals(Usr_to_test.question_rep.get(i)))
                     failed++;
             }
             System.out.println("index name " + failed);
-            Eleves.get(index_usr).matieres.mathematiques.setAdditionDifficultDriority(failed * 10);
+            Eleves.get(index_usr).matieres.mathematiques.setAddition_difficult_priority(failed * 10);
             return (Eleves.get(index_usr));
         }
         catch (IOException ex)
         {
-            ex.printStackTrace();
+            System.out.println("fail in mapper");
             return (null);
         }
     }

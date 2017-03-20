@@ -18,4 +18,14 @@ public class Matiere
     public Matiere()
     {
     }
+
+    public Mathematiques getMathematiques()
+    {
+        return (mathematiques);
+    }
+
+    public void setMathematiques(Mathematiques m1)
+    {
+        mathematiques = m1;
+    }
 }
