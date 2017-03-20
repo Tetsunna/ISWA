@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="iswa_ws_salon:war">
+    <output-path>$PROJECT_DIR$/iswa_ws_salon/target</output-path>
+    <root id="archive" name="iswawssalon.war">
+      <element id="artifact" artifact-name="iswa_ws_salon:war exploded" />
+    </root>
+  </artifact>
+</component>

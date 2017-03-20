@@ -1,3 +1,11 @@
 ISWA\code\ISWA_connexion_impl.class
+ISWA\gen\connexion\CreateAccount.class
+ISWA\gen\connexion\ObjectFactory.class
+ISWA\gen\connexion\ISWAConnexion.class
+ISWA\gen\connexion\package-info.class
+ISWA\gen\connexion\Connexion.class
+ISWA\gen\connexion\ConnexionResponse.class
 ISWA\code\User.class
+ISWA\gen\connexion\CreateAccountResponse.class
 ISWA\code\ISWA_connexion.class
+ISWA\gen\connexion\ISWAConnexion_Service.class
