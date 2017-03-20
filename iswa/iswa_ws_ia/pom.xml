@@ -12,11 +12,54 @@
     <artifactId>iswa_ws_ia</artifactId>
     <packaging>war</packaging>
 
-
+    <properties>
+        <my_directory>G:/ISWA/ISWA/iswa/iswa_ws_ia</my_directory>
+    </properties>
 
     <build>
         <finalName>iswawsia</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.9</version>
+                <executions>
+                    <execution>
+                        <id>add-source</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${my_directory}/target/generated/src/main/java</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>1.12</version>
+                <configuration>
+                    <wsdlUrls>
+                        <wsdlUrl>http://localhost:8080/iswawsia/imatest?wsdl</wsdlUrl>
+                    </wsdlUrls>
+                    <wsdlDirectory>${my_directory}/src/main/resources/wsdl</wsdlDirectory>
+                    <packageName>iswawsia_package</packageName>
+                    <keep>true</keep>
+                    <sourceDestDir>${my_directory}/src/main/java</sourceDestDir>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

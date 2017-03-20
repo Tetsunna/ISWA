@@ -2,5 +2,5 @@
 
 <endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
     <endpoint
-        name='imatest' implementation='iswa.ws.ia.source.code.NotebookServiceImpl' url-pattern='/imatest'/>
+        name='imatest' implementation='iswa.ws.ia.source.code.IAImpl' url-pattern='/imatest'/>
 </endpoints>

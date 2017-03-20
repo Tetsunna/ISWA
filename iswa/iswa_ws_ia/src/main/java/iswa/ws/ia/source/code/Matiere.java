@@ -9,10 +9,13 @@ import java.util.List;
 public class Matiere
 {
 
-    List<Mathematiques> mathematiques = new ArrayList<Mathematiques>();
+    Mathematiques mathematiques = new Mathematiques();
 
                 /*  Futur Matiere */
     //List<Francais> francais = new ArrayList<Francais>();
     //List<Histoire> histoire = new ArrayList<Histoire>();
 
+    public Matiere()
+    {
+    }
 }
