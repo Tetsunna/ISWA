@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="iswa_ws_connexion" />
         <module name="iswa_ws_ia" />
         <module name="iswa_ws_salon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="iswa" target="1.5" />
+      <module name="iswa_ws_connexion" target="1.8" />
       <module name="iswa_ws_ia" target="1.8" />
       <module name="iswa_ws_salon" target="1.8" />
     </bytecodeTargetLevel>

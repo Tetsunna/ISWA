@@ -1,5 +1,5 @@
 <html>
 <body>
-<a href="iswawsconnexion/ISWA_Connexion?wsdl">iswawsconnexion/ISWA_Connexion?wsdl</a>
+<a href="ISWA_Connexion?wsdl">ISWA_Connexion?wsdl</a>
 </body>
 </html>

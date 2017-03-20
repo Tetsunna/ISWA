@@ -8,8 +8,13 @@ import java.util.List;
  */
 public class Eleve
 {
-    List<Matiere> matieres = new ArrayList<Matiere>();
+    Matiere matieres = new Matiere();
     private String _name;
+
+    public Eleve()
+    {
+
+    }
 
     public Eleve(String name)
     {

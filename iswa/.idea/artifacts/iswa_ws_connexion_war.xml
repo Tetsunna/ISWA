@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="iswa_ws_connexion:war">
+    <output-path>$PROJECT_DIR$/iswa_ws_connexion/target</output-path>
+    <root id="archive" name="iswawsconnexion.war">
+      <element id="artifact" artifact-name="iswa_ws_connexion:war exploded" />
+    </root>
+  </artifact>
+</component>

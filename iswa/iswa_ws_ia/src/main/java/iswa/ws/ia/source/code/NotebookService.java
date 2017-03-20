@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.jws.WebService;
 
-@WebService(name = "imatest", targetNamespace="http://iswa.ws.ia.source.code")
+/*@WebService(name = "imatest", targetNamespace="http://iswa.ws.ia.source.code")
 public interface NotebookService {
 
 	boolean addPerson(Person p);
@@ -13,3 +13,4 @@ public interface NotebookService {
 	
 	Person getPersonAt(String name);
 }
+*/

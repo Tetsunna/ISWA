@@ -3,13 +3,12 @@ package ISWA.code;
 import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * Created by Adrien on 18/03/2017.
  */
 
-@WebService(endpointInterface= "ISWA.code.ISWA_connexion", serviceName="ISWA_salon", portName="ISWAport")
+@WebService(endpointInterface= "ISWA.code.ISWA_connexion", serviceName="ISWA_connexion", portName="ISWAport")
 public class ISWA_connexion_impl implements ISWA_connexion
 {
     private List<User> user_list = new ArrayList<User>();
