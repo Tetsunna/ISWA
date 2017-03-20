@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface="iswa.ws.ia.source.code.NotebookService", serviceName="imatest", portName="imatestport")
+/*@WebService(endpointInterface="iswa.ws.ia.source.code.NotebookService", serviceName="imatest", portName="imatestport")
 public class NotebookServiceImpl implements NotebookService {
 
 	private List<Person> persons = new ArrayList<Person>();
@@ -45,4 +45,4 @@ public class NotebookServiceImpl implements NotebookService {
 		}		
 		return null;
 	}
-}
+}*/
