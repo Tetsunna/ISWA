@@ -11,6 +11,11 @@ public class Eleve
     Matiere matieres = new Matiere();
     private String _name;
 
+    public Eleve()
+    {
+
+    }
+
     public Eleve(String name)
     {
         _name = name;

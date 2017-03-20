@@ -1,5 +1,5 @@
 
-package iswawsia_package;
+package iswa.ws.ia.generatesources;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getFicheEleve complex type.
+ * <p>Classe Java pour getEleveDifficulty complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="getFicheEleve">
+ * &lt;complexType name="getEleveDifficulty">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -26,15 +26,15 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getFicheEleve", propOrder = {
+@XmlType(name = "getEleveDifficulty", propOrder = {
     "arg0"
 })
-public class GetFicheEleve {
+public class GetEleveDifficulty {
 
     protected String arg0;
 
     /**
-     * Gets the value of the arg0 property.
+     * Obtient la valeur de la propriété arg0.
      * 
      * @return
      *     possible object is
@@ -46,7 +46,7 @@ public class GetFicheEleve {
     }
 
     /**
-     * Sets the value of the arg0 property.
+     * Définit la valeur de la propriété arg0.
      * 
      * @param value
      *     allowed object is

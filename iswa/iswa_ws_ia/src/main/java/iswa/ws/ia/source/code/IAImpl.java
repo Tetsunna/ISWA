@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Created by h nh on 17/03/2017.
  */
-@WebService(endpointInterface="iswa.ws.ia.source.code.I_IA", serviceName="imatest", portName="imatestport")
+@WebService(endpointInterface="iswa.ws.ia.source.code.I_IA", serviceName="iswawsia", portName="iswawsiaport")
 public class IAImpl implements I_IA
 {
     List<Eleve> Eleves = new ArrayList<Eleve>();
@@ -61,7 +61,7 @@ public class IAImpl implements I_IA
         Eleves.add(new_eleve);
     }
 
-    public int getEleveDifficulty(String pseudo)
+    public Eleve getEleveDifficulty(String pseudo)
     {
         int index_usr = getFicheEleve(pseudo);
 
@@ -78,12 +78,12 @@ public class IAImpl implements I_IA
             }
             System.out.println("index name " + failed);
             Eleves.get(index_usr).matieres.mathematiques.setAdditionDifficultDriority(failed * 10);
-            return (Eleves.get(index_usr).matieres.mathematiques.getAdditionDifficultDriority());
+            return (Eleves.get(index_usr));
         }
         catch (IOException ex)
         {
             ex.printStackTrace();
-            return (-1);
+            return (null);
         }
     }
     /*public static void main (String[] args)

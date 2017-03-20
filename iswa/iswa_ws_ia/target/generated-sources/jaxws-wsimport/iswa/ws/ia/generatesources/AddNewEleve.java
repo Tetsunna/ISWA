@@ -1,5 +1,5 @@
 
-package iswawsia_package;
+package iswa.ws.ia.generatesources;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,16 +7,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getEleveDifficulty complex type.
+ * <p>Classe Java pour addNewEleve complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="getEleveDifficulty">
+ * &lt;complexType name="addNewEleve">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="arg0" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="arg0" type="{http://iswa.ws.ia.source.code}eleve" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -26,34 +26,34 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getEleveDifficulty", propOrder = {
+@XmlType(name = "addNewEleve", propOrder = {
     "arg0"
 })
-public class GetEleveDifficulty {
+public class AddNewEleve {
 
-    protected String arg0;
+    protected Eleve arg0;
 
     /**
-     * Gets the value of the arg0 property.
+     * Obtient la valeur de la propriété arg0.
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link Eleve }
      *     
      */
-    public String getArg0() {
+    public Eleve getArg0() {
         return arg0;
     }
 
     /**
-     * Sets the value of the arg0 property.
+     * Définit la valeur de la propriété arg0.
      * 
      * @param value
      *     allowed object is
-     *     {@link String }
+     *     {@link Eleve }
      *     
      */
-    public void setArg0(String value) {
+    public void setArg0(Eleve value) {
         this.arg0 = value;
     }
 

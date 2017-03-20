@@ -6,12 +6,12 @@ import javax.jws.WebService;
  * Created by h nh on 17/03/2017.
  */
 
-@WebService(name = "imatest", targetNamespace="http://iswa.ws.ia.source.code")
+@WebService(name = "iswawsia", targetNamespace="http://iswa.ws.ia.source.code")
 public interface I_IA
 {
     int getFicheEleve(String pseudo);
     void setFicheEleve(String pseudo, String result_test);
     void addNewEleve(Eleve new_eleve);
-    int getEleveDifficulty(String pseudo);
+    Eleve getEleveDifficulty(String pseudo);
 
 }

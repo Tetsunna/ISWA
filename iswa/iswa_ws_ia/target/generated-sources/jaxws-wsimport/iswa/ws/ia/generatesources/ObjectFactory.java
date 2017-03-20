@@ -1,5 +1,5 @@
 
-package iswawsia_package;
+package iswa.ws.ia.generatesources;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
@@ -10,7 +10,7 @@ import javax.xml.namespace.QName;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the iswawsia_package package. 
+ * generated in the iswa.ws.ia.generatesources package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -34,58 +34,10 @@ public class ObjectFactory {
     private final static QName _AddNewEleveResponse_QNAME = new QName("http://iswa.ws.ia.source.code", "addNewEleveResponse");
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: iswawsia_package
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: iswa.ws.ia.generatesources
      * 
      */
     public ObjectFactory() {
-    }
-
-    /**
-     * Create an instance of {@link SetFicheEleveResponse }
-     * 
-     */
-    public SetFicheEleveResponse createSetFicheEleveResponse() {
-        return new SetFicheEleveResponse();
-    }
-
-    /**
-     * Create an instance of {@link SetFicheEleve }
-     * 
-     */
-    public SetFicheEleve createSetFicheEleve() {
-        return new SetFicheEleve();
-    }
-
-    /**
-     * Create an instance of {@link GetFicheEleve }
-     * 
-     */
-    public GetFicheEleve createGetFicheEleve() {
-        return new GetFicheEleve();
-    }
-
-    /**
-     * Create an instance of {@link GetEleveDifficultyResponse }
-     * 
-     */
-    public GetEleveDifficultyResponse createGetEleveDifficultyResponse() {
-        return new GetEleveDifficultyResponse();
-    }
-
-    /**
-     * Create an instance of {@link GetFicheEleveResponse }
-     * 
-     */
-    public GetFicheEleveResponse createGetFicheEleveResponse() {
-        return new GetFicheEleveResponse();
-    }
-
-    /**
-     * Create an instance of {@link GetEleveDifficulty }
-     * 
-     */
-    public GetEleveDifficulty createGetEleveDifficulty() {
-        return new GetEleveDifficulty();
     }
 
     /**
@@ -97,11 +49,35 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Eleve }
+     * Create an instance of {@link GetFicheEleveResponse }
      * 
      */
-    public Eleve createEleve() {
-        return new Eleve();
+    public GetFicheEleveResponse createGetFicheEleveResponse() {
+        return new GetFicheEleveResponse();
+    }
+
+    /**
+     * Create an instance of {@link SetFicheEleveResponse }
+     * 
+     */
+    public SetFicheEleveResponse createSetFicheEleveResponse() {
+        return new SetFicheEleveResponse();
+    }
+
+    /**
+     * Create an instance of {@link GetFicheEleve }
+     * 
+     */
+    public GetFicheEleve createGetFicheEleve() {
+        return new GetFicheEleve();
+    }
+
+    /**
+     * Create an instance of {@link SetFicheEleve }
+     * 
+     */
+    public SetFicheEleve createSetFicheEleve() {
+        return new SetFicheEleve();
     }
 
     /**
@@ -110,6 +86,30 @@ public class ObjectFactory {
      */
     public AddNewEleve createAddNewEleve() {
         return new AddNewEleve();
+    }
+
+    /**
+     * Create an instance of {@link GetEleveDifficulty }
+     * 
+     */
+    public GetEleveDifficulty createGetEleveDifficulty() {
+        return new GetEleveDifficulty();
+    }
+
+    /**
+     * Create an instance of {@link GetEleveDifficultyResponse }
+     * 
+     */
+    public GetEleveDifficultyResponse createGetEleveDifficultyResponse() {
+        return new GetEleveDifficultyResponse();
+    }
+
+    /**
+     * Create an instance of {@link Eleve }
+     * 
+     */
+    public Eleve createEleve() {
+        return new Eleve();
     }
 
     /**

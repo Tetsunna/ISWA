@@ -1,5 +1,5 @@
 
-package iswawsia_package;
+package iswa.ws.ia.generatesources;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for addNewEleveResponse complex type.
+ * <p>Classe Java pour eleve complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
- * &lt;complexType name="addNewEleveResponse">
+ * &lt;complexType name="eleve">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -25,8 +25,8 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "addNewEleveResponse")
-public class AddNewEleveResponse {
+@XmlType(name = "eleve")
+public class Eleve {
 
 
 }

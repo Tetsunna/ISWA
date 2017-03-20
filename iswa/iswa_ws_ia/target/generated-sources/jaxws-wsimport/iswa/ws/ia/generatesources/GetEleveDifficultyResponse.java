@@ -1,5 +1,5 @@
 
-package iswawsia_package;
+package iswa.ws.ia.generatesources;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -8,16 +8,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getEleveDifficultyResponse complex type.
+ * <p>Classe Java pour getEleveDifficultyResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="getEleveDifficultyResponse">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="return" type="{http://iswa.ws.ia.source.code}eleve" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -33,21 +33,29 @@ import javax.xml.bind.annotation.XmlType;
 public class GetEleveDifficultyResponse {
 
     @XmlElement(name = "return")
-    protected int _return;
+    protected Eleve _return;
 
     /**
-     * Gets the value of the return property.
+     * Obtient la valeur de la propriété return.
      * 
+     * @return
+     *     possible object is
+     *     {@link Eleve }
+     *     
      */
-    public int getReturn() {
+    public Eleve getReturn() {
         return _return;
     }
 
     /**
-     * Sets the value of the return property.
+     * Définit la valeur de la propriété return.
      * 
+     * @param value
+     *     allowed object is
+     *     {@link Eleve }
+     *     
      */
-    public void setReturn(int value) {
+    public void setReturn(Eleve value) {
         this._return = value;
     }
 

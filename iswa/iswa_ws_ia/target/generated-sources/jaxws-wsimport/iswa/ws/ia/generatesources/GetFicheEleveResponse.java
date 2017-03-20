@@ -1,5 +1,5 @@
 
-package iswawsia_package;
+package iswa.ws.ia.generatesources;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -8,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getFicheEleveResponse complex type.
+ * <p>Classe Java pour getFicheEleveResponse complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="getFicheEleveResponse">
@@ -36,7 +36,7 @@ public class GetFicheEleveResponse {
     protected int _return;
 
     /**
-     * Gets the value of the return property.
+     * Obtient la valeur de la propriété return.
      * 
      */
     public int getReturn() {
@@ -44,7 +44,7 @@ public class GetFicheEleveResponse {
     }
 
     /**
-     * Sets the value of the return property.
+     * Définit la valeur de la propriété return.
      * 
      */
     public void setReturn(int value) {
