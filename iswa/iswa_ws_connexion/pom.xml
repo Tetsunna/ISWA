@@ -12,11 +12,6 @@
     <artifactId>iswa_ws_connexion</artifactId>
 
     <packaging>war</packaging>
-
-    <properties>
-        <my_directory>C:/Users/Adrien/Documents/GIT/ISWA/iswa/iswa_ws_connexion</my_directory>
-    </properties>
-
     <build>
         <finalName>iswawsconnexion</finalName>
         <plugins>
