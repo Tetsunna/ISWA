@@ -3,7 +3,6 @@ package ISWA.code;
 import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * Created by Adrien on 18/03/2017.
