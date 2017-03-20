@@ -15,7 +15,7 @@ public class ServletTest extends HttpServlet
 {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-        String paramAuteur = request.getParameter("auteur");
+        String paramAuteur = request.getParameter("user");
         String message = "java mess: NUTELLA HARIBO ACTIMEL BASMATI!" + paramAuteur;
 
         Coyote premierBean = new Coyote();
@@ -24,6 +24,6 @@ public class ServletTest extends HttpServlet
 
         request.setAttribute("mess_firstjsp", message);
         request.setAttribute("Coyote", premierBean);
-        this.getServletContext().getRequestDispatcher("/WEB-INF/firstjsp.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/chatroom.jsp").forward(request, response);
     }
 }

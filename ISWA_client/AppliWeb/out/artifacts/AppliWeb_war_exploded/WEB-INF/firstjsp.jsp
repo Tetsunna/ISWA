@@ -16,7 +16,7 @@
     <%
         String mess = (String)request.getAttribute("mess_firstjsp");
         out.println(mess);
-        String param = request.getParameter("auteur");
+        String param = request.getParameter("user");
         out.println(param);
     %>
 </p>
@@ -27,7 +27,6 @@
         out.println(myBean.getNom());
         out.println(myBean.getPrenom());
     %>
-
 </p>
     </body>
 </html>
