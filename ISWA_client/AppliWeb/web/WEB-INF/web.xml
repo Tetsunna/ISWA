@@ -7,17 +7,16 @@
     <servlet>
         <servlet-name>ServletTest</servlet-name>
         <servlet-class>ServletPack.ServletTest</servlet-class>
-    </servlet>
 
-        <description>My first servlet test.</description>
-        <init-param>
-                <param-name>auteur</param-name>
-                <param-value>basmati</param-value>
-        </init-param>
-                <load-on-startup>1</load-on-startup>
+        <servlet-name>ServletForms</servlet-name>
+        <servlet-class>ServletPack.ServletForms</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>ServletTest</servlet-name>
         <url-pattern>/nutella</url-pattern>
+
+        <servlet-name>ServletForms</servlet-name>
+        <url-pattern>/haribo</url-pattern>
     </servlet-mapping>
 </web-app>
